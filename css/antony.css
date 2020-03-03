@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.jumbotron{
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+    color: darkblue;
+}
