@@ -132,40 +132,72 @@ h3{
 .tony p{
     font-weight: bolder;
 }
-.top{
-    color: black;
-    font-size: 35px;
-}
-.action{
-    background-color: green;
-    padding: 3px;
-    color: white;
-    font-weight: bolder;
-    font-size: 25px;
-}
-.tony button{
-    background-color: rgb(13, 153, 13);
-        color:white;
-        width: 20%;
-        padding: 1px;
-        cursor: pointer;
-        border: 50;
+      .contacts{
+        background-color: rgb(14, 14, 185);
+        height:500px;
+        margin-top: 100px;
+        margin-left: 0;
+        background-size: cover;
+    
     }
-      #contacts-form {
-  
-        width:700px;
-        z-index: 1;
-        background-position: relative;
-        padding:30px;
-        margin:0 auto 100px;
-        margin-top: 1%;
-      }
-      #contacts-form input{
-        outline: 1;
-        width: 100%;
-        border: 0;
-        margin-bottom: 10px;
-        padding: 15px;
-        box-sizing:border-box;
-        background-color:#f2f2f2;
-      }
+    .contacts h2{
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 0;
+        color:white;
+        font-weight: bolder;
+    }
+    .contacts input,textarea{
+        background: none;
+       
+    }
+    ::placeholder{
+        color: white;
+    }
+    .contacts textarea{
+        margin-left: 300px;
+        margin-top: 20px;
+        color: white;
+    
+    }
+    input{
+        margin-left:300px;
+        margin-top: 40px;
+    }
+    #email{
+        position: none;
+        left:300px;
+        width: 300px;
+        color: white;
+        padding:10px;
+        font-size: 25px;
+    }
+    .rose{
+        text-align: none;
+        padding:50px;
+    }
+    #name{
+        position: none;
+        width: 300px;
+        right: 400px;
+        margin: center;
+        color: white;
+        padding:10px;
+        font-size: 25px;
+    }
+    button{
+        position: relative;
+        top:50px;
+        right:450px;
+    }
+    #text{
+        font-size: 25px;
+    }
+.zz{
+    background-color: green;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 19px;
+    color: white;
+    
+}
