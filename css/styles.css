@@ -1,0 +1,49 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Yeon Sung', cursive;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../img/slide1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  animation: slide 5s infinite;
+}
+
+.welcome{
+  color: black;
+  text-align: center;
+}
+
+h1{
+  font-size: 100px;
+  text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey;
+}
+
+p{
+  color: white;
+  text-shadow: -1px -1px 10px black, 1px -1px 10px black, -1px 1px 10px black, 1px 1px 10px  black;
+}
+
+.buttons{
+  text-align: left;
+}
+
+
+@keyframes slide {
+  0%{
+    background-image: url(../img/slide1.png);
+  }
+  33%{
+    background-image: url(../img/slide2.png);
+  }
+  67%{
+    background-image: url(../img/slide3.png);
+  }
+}
