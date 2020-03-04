@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+}
+h1{
+    text-align:center;
+    font-size:100px;
+}
+.quote {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#one{
+    float: right;
+    padding-top: 170px;
+}
+#absolute{
+    position: absolute;
+    right: 5px;
+    top: 380px;
+    font-size: 30px;
+}
+#two{
+    float: left;
+    padding-bottom: 80px;
+}
+.video {
+    padding-left: 20%;
+    border-radius: 20%;
+    padding-top: 0px; 
+}
+#abso{
+    font-size: 30px;
+    padding: 40px;
+}
+#abs{
+    position: absolute;
+    top: 850px;
+    left: 500px;
+    padding: 20px;
+    font-size: 70px; 
+}
+#try{
+    float: right;
+    padding-bottom: 20%;
+}
+#tryy{
+    padding: 20px;
+    font-size: 30px;
+}
+a{ 
+    position: absolute;
+    text-decoration: none;
+    font-size: 60px;
+    left: 500px;
+    padding-top: 100px;
+}
+#end{
+    font-size:30px;
+}
