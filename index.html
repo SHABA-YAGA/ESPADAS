@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>SANAArt</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="row no-gutters">
+      <div class="col-md-4 no-gutters">
+        <h2><button onclick="document.getElementById('id01').style.display='block'">Log In</button></h2>
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close Modal">&times;</span>
+      <form class="modal-content animate" action="https://bit.ly/2Tj5Z5T">
+        <div class="imgcontainer">
+          <img src="https://bit.ly/39mFIcn" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Username...." name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password...." name="psw" required>
+
+          <label for="psw"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Confirm Password...." name="psw" required>
+
+          <button type="submit"  onclick="toFunction ()">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <h2>Featured</h2>
+      </div>
+      <div class="col-md-4 no-gutters">
+        <h2>Search</h2>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="welcome">
+        <h1>SANAArt</h1>
+        <p>"Helping you express your story"</p>
+      </div>
+    </div>
+
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
