@@ -1,0 +1,88 @@
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  float: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+  font-size: 25px;
+  text-shadow: -1px -1px 10px white, 1px -1px 10px white, -1px 1px 10px white, 1px 1px 10px  white;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Yeon Sung', cursive;
+  overflow: hidden;
+  background-image: url(../img/slide1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slide 5s infinite;
+}
+
+@keyframes slide {
+  0%{
+    background-image: url(../img/slide1.png);
+  }
+  33%{
+    background-image: url(../img/slide2.png);
+  }
+  67%{
+    background-image: url(../img/slide3.png);
+  }
+}
+
+#des {
+  width: 500px;
+  height: 100px;
+}
+
+#msg, #name, #country {
+  width: 200px;
+  height: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REQUEST FORM</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesr.css">
+  </head>
+  <body>
+    <form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="name">Description:</label>
+    <input type="text" id="des" name="user_name">
+  </li>
+  <li>
+    <label for="country">Type</label>
+    <select id="country" name="country">
+        <option value="KENYA">Digital</option>
+      <option value="UGANDA">Painting</option>
+      <option value="TANZANIA">Hand-drawn</option>
+      <option value="ETHIOPIA">others</option>
+    </select>
+  </li>
+  <li>
+    <label for="msg">Offer:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+ <br><br><br>
+<button id="post" type="submit">POST</button>
+</form>
+  </body>
+</html>
