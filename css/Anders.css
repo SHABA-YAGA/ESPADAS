@@ -1,4 +1,8 @@
-
+body {
+  font-family: 'Yeon Sung', cursive;
+  background: black;
+  color: white;
+}
 #ggg{
     width: 100%;
     height:50%;
@@ -16,7 +20,7 @@
       text-align: center;
   }
  .container h2, h3, h4{
-    
+
     font-family: 'Berkshire Swash', cursive;
   }
   /* drfgdgdfsdddddd */
