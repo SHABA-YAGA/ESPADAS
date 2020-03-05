@@ -1,0 +1,60 @@
+.fluid{
+    background: #b388ff;
+    text-align: center;
+    font-weight: 900;
+    font-family:georgia,garamond,serif;font-size:16px;font-style:italic;
+    margin-top: 20px;
+    
+}
+h1{
+    font-size: 65px;
+}
+h2{
+        font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+        color: #000;
+        text-shadow: 4px 4px 3px rgba(0,0,0,0.4); 
+        font-size: 30px;
+}
+
+img{
+    float: left;
+    max-width: 250px;
+}
+
+.potray .row .col-4 img{
+    width:550px;
+    height: 300px;
+    text-align: center;
+    margin: 0px;
+    margin: o auto;
+    
+
+}
+    
+
+h3 {
+    font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+    font-size: 35px;
+  }
+
+.potray{
+    max-width: 960px;
+    margin:0 auto;
+    text-align:center;
+  }
+.icns img{
+    width:100%;
+    margin-bottom: 5px;
+  }
+.icns{
+    margin-bottom: 0px;
+  }
+.image-frame img{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                          
